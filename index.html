@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS in JavaScript</title>
     <style>
+        h1{transition: all 200ms ease-in-out;}
+        h1:hover {
+            color: red;
+            cursor: pointer;
+        }
         button {
             font-family: Arial, sans-serif;
             background-color: blue;
             color: white;
-            border: none;
-            margin: 0;
-            padding: 20px;
+            border: 1px solid blueviolet;
+            margin: 0 auto;
+            padding: 15px 20px;
             border-radius: 10px;
+            display: block;
+            border-radius: 30px;
+            transition: all 200ms ease-in-out;
+        }
+        button:hover {
+            background-color: rgb(244, 82, 13);
+            cursor: pointer;
         }
         </style>
 </head>
